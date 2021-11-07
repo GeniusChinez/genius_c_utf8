@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 
-namespace genius_c {
+namespace gc {
     struct InvalidUtf8 : public std::exception {
         InvalidUtf8(const char* msg) 
             : msg(msg) {}
@@ -256,6 +256,6 @@ namespace genius_c {
         return output;
     }
 
-} // namespace genius_c
+} // namespace gc
 
 #endif // __GENIUS_C_UTF8__
